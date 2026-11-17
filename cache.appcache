@@ -1,0 +1,32 @@
+CACHE MANIFEST
+# mansoor0x Afterglow GoldHEN offline cache
+# build: mansoor0x-1402-final-1
+
+CACHE:
+index.html
+jb.html
+launch.js
+exploit.js
+afterglow.js
+core.js
+mem.js
+int64.js
+ps4_offsets.js
+out/goldhen.bin
+out/1200.bin
+out/1202.bin
+out/1250.bin
+out/1252.bin
+out/1300.bin
+out/1302.bin
+out/1304.bin
+out/1350.bin
+out/1352.bin
+out/1400.bin
+out/1402.bin
+
+FALLBACK:
+/ jb.html
+
+NETWORK:
+*
