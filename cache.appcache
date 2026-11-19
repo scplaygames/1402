@@ -1,0 +1,29 @@
+CACHE MANIFEST
+# by omar mendoza c.
+# build: 2026-11-18 13:15:00
+
+CACHE:
+index.html
+exploit.html
+afterglow.js
+core.js
+exploit.js
+int64.js
+launch.js
+mem.js
+ps4_offsets.js
+out/1200.bin
+out/1202.bin
+out/1250.bin
+out/1252.bin
+out/1300.bin
+out/1302.bin
+out/1304.bin
+out/1350.bin
+out/1352.bin
+out/1400.bin
+out/1402.bin
+out/goldhen.bin
+
+NETWORK:
+*
