@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" manifest="cache.appcache">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PlayGames</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #0b0d10;
+      color: #c8ced8;
+      font: 15px/1.45 "Segoe UI", system-ui, sans-serif;
+    }
+    #wrap { padding: 16px 18px; }
+    #state { font-size: 22px; font-weight: 700; margin: 0 0 6px; }
+    #det { font-size: 13px; color: #8b95a3; margin: 0 0 4px; }
+    #det b { color: #c8ced8; font-weight: 600; }
+    #cache { font-size: 12px; color: #5c6672; margin: 0 0 10px; min-height: 14px; }
+    #cache.cacheok { color: #7fd0a0; }
+    .ok { color: #7fd0a0; }
+    .bad { color: #d08a7f; }
+    .warn { color: #d8c07f; }
+    #brand {
+      text-align: center;
+      padding: 8px 10px;
+      background: #0e1116;
+      border-bottom: 1px solid #1e2732;
+    }
+    #brand img {
+      width: 28px;
+      height: 28px;
+      margin-right: 8px;
+      border-radius: 50%;
+      vertical-align: middle;
+    }
+    #brand b {
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: .14em;
+      color: #e6ebf2;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <div id="brand">
+    <img src="data:image/png;base64,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&quot; alt="">
+    <b>PlayGames</b>
+  </div>
+  <div id="wrap">
+    <div id="state">Starting...</div>
+    <div id="det"></div>
+    <div id="cache"></div>
+  </div>
+  <script src="launch.js"></script>
+</body>
+</html>
